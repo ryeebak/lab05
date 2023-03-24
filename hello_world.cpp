@@ -1,10 +1,9 @@
 #include <iostream>
-using namespace std;
-
+//no using namespace std !!!
 int main() {
-   string name;
-   cout << "What is your name?\n";
-   cin >> name;
-   cout << "Hello world from @" << name <<  endl;
-   return 0;
+	std::string name;
+	std::cout << "What is your name?\n";
+	std::cin >> name;//entering user's name
+	std::cout << "Hello world from @" << name << std::endl;//print res
+	return 0;
 }
