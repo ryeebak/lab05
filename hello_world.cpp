@@ -1,5 +1,5 @@
 #include <iostream>
-//no using namespace std !!!
+//ja zabyl ustanovit rysski jazik :(
 int main() {
 	std::string name;
 	std::cout << "What is your name?\n";
