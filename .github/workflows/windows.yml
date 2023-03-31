@@ -10,4 +10,4 @@ jobs:
         run: |
           cmake -Bbuild
           cmake --build build --target point
-          build/.\point.exe
+          build\Debug\./point.exe
