@@ -27,8 +27,8 @@ jobs:
     run: build/check
     
   - name: Do lcov stuff
-    run: mkdir coverage
-         lcov -c -d build/CMakeFiles/banking.dir/banking/ --include *.cpp -o ./coverage/lcov.info
+    run: mkdir coverage && lcov -c -d build/CMakeFiles/banking.dir/banking/ --include *.cpp -o ./coverage/lcov.info
+    
          
 
   - name: Publish to coveralls.io
