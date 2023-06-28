@@ -1,0 +1,2 @@
+/usr/bin/ar qc libActions.a CMakeFiles/Actions.dir/sources/Account.cpp.o CMakeFiles/Actions.dir/sources/Transaction.cpp.o CMakeFiles/Actions.dir/sources/print.cpp.o
+/usr/bin/ranlib libActions.a

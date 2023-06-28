@@ -1,0 +1,42 @@
+Start testing: Jun 28 20:11 MSK
+----------------------------------------------------------
+1/1 Testing: check
+1/1 Test: check
+Command: "/home/admin/ryeebak/workspace/projects/lab05/_banking/check"
+Directory: /home/admin/ryeebak/workspace/projects/lab05/_banking
+"check" start time: Jun 28 20:11 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/admin/ryeebak/workspace/projects/lab05/third-party/gtest/googletest/src/gtest_main.cc
+[==========] Running 2 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from Account
+[ RUN      ] Account.Banking
+[       OK ] Account.Banking (0 ms)
+[----------] 1 test from Account (0 ms total)
+
+[----------] 1 test from Transaction
+[ RUN      ] Transaction.Banking
+3 5000 5000
+0 send to 1 $1000
+Balance 0 is 3900
+Balance 1 is 6000
+4 6000 3900
+0 send to 1 $3900
+Balance 0 is 3900
+Balance 1 is 6000
+[       OK ] Transaction.Banking (0 ms)
+[----------] 1 test from Transaction (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"check" end time: Jun 28 20:11 MSK
+"check" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 28 20:11 MSK
