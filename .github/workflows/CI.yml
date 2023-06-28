@@ -28,9 +28,7 @@ jobs:
     
   - name: Do lcov stuff
     run: mkdir coverage && lcov -c -d build/CMakeFiles/banking.dir/banking/ --include *.cpp -o ./coverage/lcov.info
-    
-         
-
+ 
   - name: Publish to coveralls.io
     uses: coverallsapp/github-action@v1.1.2
     with:
