@@ -23,7 +23,7 @@ jobs:
     run: cmake --build ${{github.workspace}}/build
 
   - name: Run tests
-    run: build/check
+    run: build
    
   - name: Do lcov stuff
     run: lcov -c -d build/CMakeFiles/banking.dir/banking/ --include *.cpp --output-file ./coverage/lcov.info
